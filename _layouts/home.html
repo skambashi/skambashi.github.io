@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div id="main" role="main">			
+	<div class="wrap">
+		{% if page.image.feature %}
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
+				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		{% endif %}
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
+		</div>
+
+		<div class="archive-wrap">
+			<link rel="stylesheet" href="{{ site.url }}/css/scoped-twbs.min.css">
+			<div class="page-content">
+				<div class="twbs">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="{{ site.url }}/images/profile.jpg" class="page-feature-image" alt="{{ page.title }}">
+						</div>
+						<div class="col-md-8">
+							<p style="font-size: 90%">
+								Hi! My name is Seikun (pronounced <i>[sey-kun]</i>), and this here is my temple of peace and awesomeness.
+							</p>
+							<p style="font-size: 90%">
+								I am a developer, currently studying software engineering at the University of Waterloo.
+							</p>
+							<p style="font-size: 90%">
+								Whenever I’m not busy working or studying, I like to go rock climbing, read books, and play guitar.
+							</p>
+							<p style="font-size: 90%">
+								Here you can see some of my projects, résumé, and blog. I usually rant about projects I work on, cool things I’ve stumbled into, and my life in general.
+							</p>
+							<p style="font-size: 90%">
+								Thanks for coming by,
+							</p>
+							<p style="font-size: 90%">
+								<i>Seikun Kambashi</i>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+</div><!-- /#main -->

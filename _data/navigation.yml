@@ -1,6 +1,18 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+#- title:
+#  url:
+#  excerpt:
+#  image:
+
+- title: Blog
+  url: /blog/
+  excerpt: "I write things."
+
+- title: Projects
+  url: /projects/
+  excerpt: "I  make things."
+
+- title: Résumé
+  url: /assets/Resume.pdf
+  excerpt: "I do things."
