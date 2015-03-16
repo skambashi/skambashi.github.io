@@ -1,10 +1,10 @@
 # Site navigation links
 
-#- title:
-#  url:
-#  excerpt:
-#  image:
+- title:
+  url:
+  excerpt:
+  image:
 
-- title: Portfolio
-  url: /portfolio/
-  excerpt: "Stuff I've worked on or currently working on."
+#- title: Portfolio
+#  url: /portfolio/
+#  excerpt: "Stuff I've worked on or currently working on."
