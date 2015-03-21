@@ -114,6 +114,19 @@
 /* Bottom menu navigation */
 
 .bottom-menu {
+	display: none;
+	@include media($micro) {
+		display: block;
+	}
+	@include media($small) {
+		display: block;
+	}
+	@include media($medium) {
+		display: none;
+	}
+	@include media($large) {
+		display: none;
+	}
 	@include clearfix;
 	font-weight: 700;
 	a {

@@ -1,4 +1,16 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: Blog
+  url: /blog/
+  excerpt: "I write things."
+  image: blog.png
+
+- title: Projects
+  url: /projects/
+  excerpt: "I  make things."
+  image: projects.png
+
+- title: Résumé
+  url: /assets/Resume.pdf
+  excerpt: "I do things."
+  image: resume.png
