@@ -60,7 +60,7 @@ Aside from all the media that we produce with our phones, tablets, laptops, and 
 
 I mentioned before that we are a location based company, and what better way to build an understanding of the physical world than using data pertaining to it?
 
-Take your phone for instance. Nowadays, most mobile phones keep track of your current location. PlaceIQ can use this information to build a profile based on where you've been. As an example, with location based data, you can better understand the demographic of the people that frequent a specific grocery store, or even find out what kinds of audiences like to visit fast food restaurants!
+At this point most smartphones keep track of their own movement among various locations. PlaceIQ's platform leverages this anonymized data to build consumer profiles based on where devices have been. In other words, location based data can enable a better understanding of certain demographics that frequent a grocery store, or the type the restaurants those phone owners prefer over others!
 
 ## Privacy
 
