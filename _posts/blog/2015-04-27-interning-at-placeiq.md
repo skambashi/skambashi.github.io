@@ -90,7 +90,7 @@ I often helped in the evaluation of new datasets. Although the more statisticall
 
 The majority of the analysis was actually pretty intuitive. An ideal high fidelity user would send a relevant number of requests from locations of interest. As such, we might consider the distribution of users and locations by the number of requests they generated, and only take the devices that are within a threshold number of standard deviations from the mean as a basic filter.
 
-Simply put, if you only ever saw one request from a user, then it would be useless since you wouldn't be able to interpolate very much from a single data point. On the other hand, if a user were to be sending a ridiculous number of requests, it would skew your data, and it could potentially be a sign of a bot.
+Simply put, if you only ever saw one request from a user, then it would be useless since you wouldn't be able to extrapolate very much from a single data point. On the other hand, if a user were to be sending a ridiculous number of requests, it would skew your data, and it could potentially be a sign of a bot.
 
 The evaluation with regards to location was outside the scope of what I did, but it's also the most interesting part of analyzing a location based dataset. As such, I thought I'd quickly go over some of the things that I learned from the data scientists.
 
