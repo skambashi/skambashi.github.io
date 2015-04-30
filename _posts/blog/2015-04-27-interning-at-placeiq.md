@@ -112,8 +112,6 @@ Towards the end, we began to move all our pipelines and data to our own personal
 
 The jobs I wrote were mostly in Scala using the Spark framework, as well as a bit of Java for Hadoop as well. Occasionally I would work with Python or write a quick Bash script to help with my workflow. Our data pipelines are run by Azkaban, which I only really dabbled in for a little bit, to include a small data pipeline (written in Python).
 
-There was also the frequent use of excel or numbers for a quick graph or simple calculations.
-
 For my last project, I messed around a bit with HBase and Apache Phoenix to do some basic queries on it, but didn't really have the time to go more in depth. 
 
 # Conclusion
