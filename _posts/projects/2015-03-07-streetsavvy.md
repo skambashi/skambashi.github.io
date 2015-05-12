@@ -21,3 +21,4 @@ We used OpenStreetMap data, alongside various datasets such as historical crime 
 Streetsavvy was a product made by our awesome team composed of Charlie Brummitt, Gabriela Rojas, Marie Rose Muir, Patrick Boueri and Shayan Masood. We also won a prize for best visualization at _[Data Hackathon](http://datahackathon2015.splashthat.com/){:target="_blank"}_!.
 
 The source code is available on [GitHub](https://github.com/safewalknyc){:target="_blank"}.
+There is also a live [demo](http://54.175.21.94:8000/){:target="_blank"} available.
