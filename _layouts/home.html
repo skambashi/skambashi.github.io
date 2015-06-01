@@ -12,27 +12,31 @@ layout: default
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
 		{% endif %}
-		<div class="page-title">
-			<h1>{{ page.title }}</h1>
-			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
-		</div>
+		<!-- <div class="page-title"> -->
+			<!-- <h1>{{ page.title }}</h1> -->
+			<!-- {% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %} -->
+		<!-- </div> -->
 
 		<div class="archive-wrap">
 			<link rel="stylesheet" href="{{ site.url }}/css/scoped-twbs.min.css">
 			<div class="page-content">
 				<div class="twbs">
-					<div class="row">
-						<div class="col-md-4">
+					<div>
+						<div class="page-feature">
+						<div class="page-image">
+							<!-- <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image"> -->
 							<img src="{{ site.url }}/images/profile.jpg" class="page-feature-image" alt="{{ page.title }}">
-							<br/>
-							<br/>
-						</div>
+						</div><!-- /.page-image -->
+					</div><!-- /.page-feature -->
+					</div>
+					<br/>
+					<div class="row">
 						<div class="col-md-8">
 							<p style="font-size: 90%">
-								Hi, my name is <b>Seikun Kambashi</b>.
+								Hi!
 							</p>
 							<p style="font-size: 90%">
-								I am currently studying <b>Software Engineering</b> at the <b>University of Waterloo</b>.
+								I'm <b>Seikun Kambashi</b>, currently studying <b>Software Engineering</b> at the <b>University of Waterloo</b>.
 							</p>
 							<p style="font-size: 90%">
 								Whenever I’m not busy developing or studying, I love to go rock climbing, read books, and play guitar.
