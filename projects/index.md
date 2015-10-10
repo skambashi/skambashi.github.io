@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Latest Projects"
+title: "Projects"
 date: 
 modified:
 excerpt:

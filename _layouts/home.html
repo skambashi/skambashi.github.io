@@ -4,56 +4,77 @@ layout: default
 
 <div id="main" role="main">			
 	<div class="wrap">
-		{% if page.image.feature %}
-		<div class="page-feature">
-			<div class="page-image">
-				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
-				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-			</div><!-- /.page-image -->
-		</div><!-- /.page-feature -->
-		{% endif %}
-		<!-- <div class="page-title"> -->
-			<!-- <h1>{{ page.title }}</h1> -->
-			<!-- {% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %} -->
-		<!-- </div> -->
-
-		<div class="archive-wrap">
 			<link rel="stylesheet" href="{{ site.url }}/css/scoped-twbs.min.css">
 			<div class="page-content">
 				<div class="twbs">
-					<div>
-						<div class="page-feature">
-						<div class="page-image">
-							<!-- <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image"> -->
-							<img src="{{ site.url }}/images/profile.jpg" class="page-feature-image" alt="{{ page.title }}">
-						</div><!-- /.page-image -->
-					</div><!-- /.page-feature -->
-					</div>
-					<br/>
-					<div class="row">
-						<div class="col-md-8">
-							<p style="font-size: 90%">
-								Hi!
-							</p>
-							<p style="font-size: 90%">
-								I'm <b>Seikun Kambashi</b>, currently studying <b>Software Engineering</b> at the <b>University of Waterloo</b>.
-							</p>
-							<p style="font-size: 90%">
-								Whenever I’m not busy developing or studying, I love to go rock climbing, read books, and play guitar.
-							</p>
-							<p style="font-size: 90%">
-								Feel free to checkout my <a href="{{site.url}}/blog"><b>blog</b></a>, <a href="{{site.url}}/projects"><b>projects</b></a>, and <a href="{{site.url}}/assets/Resume.pdf"><b>résumé</b></a>. I usually rant about stuff I work on, cool things I’ve stumbled into, and my life in general.
-							</p>
-							<p style="font-size: 90%">
-								Thanks for coming by,
-							</p>
-							<p style="font-size: 90%">
-								<i>Seikun Kambashi</i>
-							</p>
+					<div class="container">
+						<div class="row row-eq-height">
+							<div class="col-md-4">
+								<!-- <div class="circular"></div> -->
+								<img class="circular" style="border-radius: 50%; width: 310px; height: auto" src="{{ site.url }}/images/profile_mini.png">
+								<br><br>
+							</div>
+							<div class="col-md-8 col-xs-12">
+								<!-- <div class="panel panel-default"> -->
+									<!-- <div class="panel-body"> -->
+									Hello World!
+									<br><br>
+									My name is Seikun Kambashi, currently studying Software Engineering at the University of Waterloo.
+									Whenever I’m not busy developing and learning, I love to go rock climbing, play video games, read books, and jam some music with my friends.
+									<br><br>
+									Feel free to checkout my <a href="{{site.url}}/"><b>projects</b></a>, <a href="{{site.url}}/blog"><b>blog</b></a>, and <a href="{{site.url}}/assets/Résumé.pdf"><b>résumé</b></a> to learn more about me. You can also see some of my latest instagram photos below.
+									<br><br>
+									Thanks for coming by,
+									<br><br>
+									<i>Seikun Kambashi</i>
+									<!-- </div> -->
+								<!-- </div> -->
+							</div>
 						</div>
+						<div class="row row-eq-height" style="float: none; margin: 0 auto">
+							<div class="col-md-11">
+								<hr>
+							</div>
+						</div>
+						<div class="row row-eq-height">
+							<div id="instafeed"></div>
+						</div>
+<!-- 						<div class="row">
+							<div class="col-md-1" style="float: none; margin: 0 auto">
+								<button class="btn btn-info" role="button" id="load-more">Load More</button>
+							</div>
+						</div> -->
 					</div>
 				</div>
 			</div><!-- /.page-content -->
-		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
 </div><!-- /#main -->
+
+<script type="text/javascript" src="{{ site.url }}/js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+
+	var loadButton = document.getElementById('load-more');
+	var feed = new Instafeed({
+        get: 'user',
+	    userId: 1318690860,
+	    accessToken: '1318690860.467ede5.3cb41abb9b95463eaec774bf9b2cad33',
+	    limit: 6,
+	    template: '<div class="col-xs-2"><a target="_blank" href="\{\{link\}\}"><img src="\{\{image\}\}" class="img-thumbnail"></div>',
+
+		// every time we load more, run this function
+		// after: function() {
+		// 	// disable button if no more results to load
+		// 	if (!this.hasNext()) {
+		// 		loadButton.setAttribute('disabled', 'disabled');
+		// 	}
+		// }
+	});
+
+	// bind the load more button
+	// loadButton.addEventListener('click', function() {
+	// 	feed.next();
+	// });
+
+	feed.run();
+</script>

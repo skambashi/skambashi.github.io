@@ -1,5 +1,13 @@
 ---
 layout: home
 permalink: /
-title: "Welcome!"
+title: "About Me"
+date:
+modified:
+excerpt:
+image:
+  feature:
+  teaser:
+  thumb:
+ads: false
 ---
