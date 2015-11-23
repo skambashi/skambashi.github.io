@@ -6,8 +6,8 @@ categories: projects
 excerpt:
 tags: []
 image:
-  feature: projects_uttt_feature.png
-  teaser: projects_uttt_teaser.png
+  feature: projects/uttt/feature.png
+  teaser: projects/uttt/teaser.png
   thumb:
 ads: false
 date: 2013-10-06

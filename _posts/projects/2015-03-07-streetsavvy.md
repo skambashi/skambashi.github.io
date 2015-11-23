@@ -6,8 +6,8 @@ categories: projects
 excerpt:
 tags: []
 image:
-  feature: projects_streetsavvy_feature.jpg
-  teaser: projects_streetsavvy_teaserv2.jpg
+  feature: projects/streetsavvy/feature.jpg
+  teaser: projects/streetsavvy/teaser.jpg
   thumb:
 ads: false
 date: 2015-03-07

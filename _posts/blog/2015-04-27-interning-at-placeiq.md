@@ -6,8 +6,8 @@ categories: blog
 excerpt:
 tags: []
 image:
-  feature: blog_interning_at_placeiq_feature.gif
-  teaser: blog_interning_at_placeiq_teaser.png
+  feature: blog/interning_at_placeiq/feature.gif
+  teaser: blog/interning_at_placeiq/teaser.png
   thumb:
 date: 2015-04-27T19:37:31-04:00
 comments: true
@@ -22,7 +22,7 @@ There is a feeling of urgency everywhere. The kind that you get when scratching 
 
 The tall skyscrapers, the bright lights, and the busy streets all have an air of excitement about them. You can't help but feel that there's an opportunity at every corner, and that feeling hasn't faded since I stepped out of the airplane.
 
-![Manhattan]({{ site.url }}/images/blog_interning_at_placeiq_1.jpg)
+![Manhattan]({{ site.url }}/images/blog/interning_at_placeiq/1.jpg)
 
 Back when I was looking for an internship in the fall, I had a bias against any tech company that wasn't in the valley (or at the very least, near it). Sure, I still applied to a lot of places that weren't on the west coast, but it was more as a backup in case I didn't get into any of the companies I wanted. Honestly, I have to say that I was blessed by the gem that I found here in New York. [PlaceIQ](http://www.placeiq.com/){:target="_blank"} was an awesome company to work for.
 
@@ -48,7 +48,7 @@ And oh boy, is there a lot of it.
 
 ## Big Data
 
-![Data everywhere]({{ site.url }}/images/blog_interning_at_placeiq_2.jpg)
+![Data everywhere]({{ site.url }}/images/blog/interning_at_placeiq/2.jpg)
 
 According to an [article](http://www.sciencedaily.com/releases/2013/05/130522085217.htm){:target="_blank"} posted by ScienceDaily, 90% of the world's data was generated over the last two years, and that was back in 2013!
 
@@ -72,7 +72,7 @@ But not to worry, we don't have access to any personal information about you. To
 
 My work as an intern in the Data Science team at PlaceIQ was related to gleaning bits of insight from our data, similar to the examples above.
 
-![Data science]({{ site.url }}/images/blog_interning_at_placeiq_3.jpg)
+![Data science]({{ site.url }}/images/blog/interning_at_placeiq/3.jpg)
 
 ## Data Munging
 
@@ -82,7 +82,7 @@ It is an underappreciated labour, but the process of preparing the data (also re
 
 Real world data rarely comes in a neatly packaged box that you can instantly run a machine learning algorithm on. It's an inconsistent, noisy mess that requires time and experience in order to tame it into something meaningful.
 
-![Data wrangling]({{ site.url }}/images/blog_interning_at_placeiq_4.jpg)
+![Data wrangling]({{ site.url }}/images/blog/interning_at_placeiq/4.jpg)
 
 ## Evaluating Datasets
 
@@ -98,7 +98,7 @@ Often times, the latitude and longitude of a request isn't as accurate as we'd l
 
 PlaceIQ uses something called Darwin to weed out ineffective and fraudulent location data as explained above. In other words, it's a pipeline process that results in data-based natural selection. Darwin examines the data by looking at things such as hyperlocality, which assesses if data is consistent with natural human movement, and clusterability, which determines if clusters of data points are consistent with what you'd expect to see in normal human activity.
 
-![Bad data]({{ site.url }}/images/blog_interning_at_placeiq_5.jpg)
+![Bad data]({{ site.url }}/images/blog/interning_at_placeiq/5.jpg)
 
 ## Ad-Hoc Work
 
@@ -116,7 +116,7 @@ For my last project, I messed around a bit with HBase and Apache Phoenix to do s
 
 # Conclusion
 
-{% include image-caption.html url="/images/blog_interning_at_placeiq_6.jpg" description="The awesome data science team at work" %}
+{% include image-caption.html url="/images/blog/interning_at_placeiq/6.jpg" description="The awesome data science team at work" %}
 
 In conclusion, PlaceIQ is an exciting place to work at. Aside from all the cutting-edge technology you get to work with, and all the amazing things you get to do with the data, there are the weekly happy hours (and the monthly big one), poker nights, ping pong tourneys, rock climbing groups, quarterly team outings, and some of the best people you could ever work with.
 

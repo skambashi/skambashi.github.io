@@ -6,8 +6,8 @@ categories: projects
 excerpt:
 tags: [Lua, Love2D]
 image:
-  feature: projects_sushi_ninja_feature.gif
-  teaser: projects_sushi_ninja_feature.gif
+  feature: projects/sushi_ninja/feature.gif
+  teaser: projects/sushi_ninja/teaser.gif
   thumb:
 ads: false
 date: 2015-06-01T00:05:09-04:00
