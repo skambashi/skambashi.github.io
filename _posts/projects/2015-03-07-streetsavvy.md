@@ -17,7 +17,7 @@ A routing app for finding the safest route from one place to another!
 
 A user can apply weighted metrics to routes, and configure their own way home based on their preferences.
 
-Streetsavvy was a product made by our awesome team composed of Charlie Brummitt, Gabriela Rojas, Marie Rose Muir, Patrick Boueri and Shayan Masood. We also won a prize for best visualization at _[Data Hackathon](http://datahackathon2015.splashthat.com/){:target="_blank"}_!.
+Streetsavvy was a product made by our awesome team composed of Charlie Brummitt, Gabriela Rojas, Marie Rose Muir, Patrick Boueri and [Shayan Masood](http://shayanmasood.com){:target="_blank"}. We also won a prize for best visualization at _[Data Hackathon](http://datahackathon2015.splashthat.com/){:target="_blank"}_!.
 
 The source code is available on [GitHub](https://github.com/safewalknyc){:target="_blank"}.
 <!-- There is also a live [demo](http://54.175.21.94:8000/){:target="_blank"} available. -->
