@@ -66,7 +66,7 @@ Nowadays, most smartphones keep track of their own movement among various locati
 
 Of course, there's always the concern with privacy, and rightfully so. This kind of personal and granular data wasn't available until recently, so no one is fully aware of it's implications. Look at Facebook for example, they received a lot of [backlash](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/){:target="_blank"} for their experiments that they conducted with their users' newsfeeds.
 
-But not to worry, we don't have access to any personal information about you. To be honest, just your data alone isn't really useful at all in understanding human behaviour.  It's only when you can analyze data at scale, that you begin to see interesting patterns and behaviours. 
+But not to worry, we don't have access to any personal information about you. To be honest, just your data alone isn't really useful at all in understanding human behaviour.  It's only when you can analyze data at scale, that you begin to see interesting patterns and behaviours.
 
 # Data Science Intern
 
@@ -112,7 +112,7 @@ Towards the end, we began to move all our pipelines and data to our own personal
 
 The jobs I wrote were mostly in Scala using the Spark framework, as well as a bit of Java for Hadoop as well. Occasionally I would work with Python or write a quick Bash script to help with my workflow. Our data pipelines are run by Azkaban, which I only really dabbled in for a little bit, to include a small data pipeline (written in Python).
 
-For my last project, I messed around a bit with HBase and Apache Phoenix to do some basic queries on it, but didn't really have the time to go more in depth. 
+For my last project, I messed around a bit with HBase and Apache Phoenix to do some basic queries on it, but didn't really have the time to go more in depth.
 
 # Conclusion
 
@@ -122,9 +122,8 @@ In conclusion, PlaceIQ is an exciting place to work at. Aside from all the cutti
 
 Oh, and there's snacks. A lot of snacks.
 
-Finally, I'd like to thank everyone from the Data Science team for being such awesome mentors and friends these past four months! I may not always show it, but I really enjoyed my time here.
+Finally, I'd like to thank everyone from the Data Science team for being such awesome mentors and friends these past four months! I may not always show it, but I sincerely enjoyed my time here.
 
 ------------------------------------------------------------------------------------------------------------------
 
 _If you want to help build a location-intelligence company that provides an unparalleled understanding of consumers in this new, digitally driven world, PlaceIQ is [hiring](http://www.placeiq.com/about-us/careers/){:target="_blank"}._
-
