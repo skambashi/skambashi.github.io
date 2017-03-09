@@ -14,6 +14,11 @@
   excerpt: "I write things."
   image: blog.png
 
+# - title: Climbing
+#   url: /climbing/
+#   excerpt: "I climb rocks."
+#   image: blog.png
+
 - title: Résumé
   url: /assets/Resume.pdf
   excerpt: "I do things."

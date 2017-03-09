@@ -26,7 +26,8 @@ The tall skyscrapers, the bright lights, and the busy streets all have an air of
 
 Back when I was looking for an internship in the fall, I had a bias against any tech company that wasn't in the valley (or at the very least, near it). Sure, I still applied to a lot of places that weren't on the west coast, but it was more as a backup in case I didn't get into any of the companies I wanted. Honestly, I have to say that I was blessed by the gem that I found here in New York. [PlaceIQ](http://www.placeiq.com/){:target="_blank"} was an awesome company to work for.
 
-{% include toc.html %}
+<!-- {% include toc.html %} -->
+<hr>
 
 # PlaceIQ
 
@@ -67,6 +68,8 @@ Nowadays, most smartphones keep track of their own movement among various locati
 Of course, there's always the concern with privacy, and rightfully so. This kind of personal and granular data wasn't available until recently, so no one is fully aware of it's implications. Look at Facebook for example, they received a lot of [backlash](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/){:target="_blank"} for their experiments that they conducted with their users' newsfeeds.
 
 But not to worry, we don't have access to any personal information about you. To be honest, just your data alone isn't really useful at all in understanding human behaviour.  It's only when you can analyze data at scale, that you begin to see interesting patterns and behaviours.
+
+<hr>
 
 # Data Science Intern
 
@@ -114,6 +117,8 @@ The jobs I wrote were mostly in Scala using the Spark framework, as well as a bi
 
 For my last project, I messed around a bit with HBase and Apache Phoenix to do some basic queries on it, but didn't really have the time to go more in depth.
 
+<hr>
+
 # Conclusion
 
 {% include image-caption.html url="/images/blog/interning_at_placeiq/6.jpg" description="The awesome data science team at work" %}
@@ -124,6 +129,6 @@ Oh, and there's snacks. A lot of snacks.
 
 Finally, I'd like to thank everyone from the Data Science team for being such awesome mentors and friends these past four months! I may not always show it, but I sincerely enjoyed my time here.
 
-------------------------------------------------------------------------------------------------------------------
+<hr>
 
 _If you want to help build a location-intelligence company that provides an unparalleled understanding of consumers in this new, digitally driven world, PlaceIQ is [hiring](http://www.placeiq.com/about-us/careers/){:target="_blank"}._
