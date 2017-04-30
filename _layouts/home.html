@@ -3,64 +3,61 @@ layout: default
 ---
 
 <div id="main" role="main">
-	<div class="wrap">
-			<link rel="stylesheet" href="{{ site.url }}/css/scoped-twbs.min.css">
-			<div class="page-content">
-				<div class="twbs">
-					<div class="container">
-						<div class="row row-eq-height">
-              <div class="col-md-4 text-center">
-                <!-- <div class="circular"></div> -->
-                <img class="circular" style="border-radius: 50%; width: 310px; height: auto" src="{{ site.url }}/images/profile.jpg">
-                <br><br>
-              </div>
-							<div class="col-md-8">
-								<b>Hello!
-                안녕하세요!
-                こんにちわ!</b>
-								<br><br>
-                I am a senior Software Engineering student at the University of Waterloo, and
-								I am currently helping build <a href="https://www.wealthsimple.com/" target="_blank">Canada's best robo-advisor</a>.
-                <br><br>
-                Over the last few years, I've also had the great priviledge of working with some of the best people
-                at <a href="http://www.geforce.com/geforce-now" target="_blank">NVIDIA</a>,
-                <a href="https://docs.com/en-us" target="_blank">Microsoft</a>, and <a href="http://placeiq.com/" target="_blank">PlaceIQ</a>.
-                <br><br>
-                Among other things, I love to go rock climbing, read books, play video games, and learn new songs on my guitar.
-								<br><br>
-								You can checkout my <a href="{{site.url}}/projects" target="_blank"><b>projects</b></a> and <a href="{{site.url}}/assets/Resume.pdf" target="_blank"><b>résumé</b></a> to learn more about me.
-								<br><br>
-								Cheers,
-								<br><br>
-								<i>Seikun Kambashi</i>
-							</div>
-						</div>
-						<div class="row row-eq-height" style="float: none; margin: 0 auto">
-							<div class="col-md-11">
-								<hr></hr>
-							</div>
-						</div>
-						<div class="row row-eq-height">
-              <div class="col-md-12">
-                <div id="instafeed"></div>
-              </div>
-						</div>
-					</div>
-				</div>
-			</div><!-- /.page-content -->
-	</div><!-- /.wrap -->
-</div><!-- /#main -->
+    <div class="wrap">
+        <link rel="stylesheet" href="{{ site.url }}/css/scoped-twbs.min.css">
+        <div class="page-content">
+            <div class="twbs">
+                <div class="container">
+                    <div class="row row-eq-height">
+                        <div class="col-md-4 text-center">
+                            <!-- <div class="circular"></div> -->
+                            <img class="circular" style="border-radius: 50%; width: 310px; height: auto" src="{{ site.url }}/images/profile.jpg">
+                            <br><br>
+                        </div>
+                        <div class="col-md-8">
+                            <b>Hello! 안녕하세요! こんにちわ!</b>
+                            <br><br> My name is Seikun Kambashi, and I am a senior Software Engineering student at the University of Waterloo.
+                            <br><br> Over the last few years, I've had the great privilege of working with some of the best people at
+                            <a href="https://www.wealthsimple.com/" target="_blank">Wealthsimple</a>,
+                            <a href="http://www.geforce.com/geforce-now" target="_blank">NVIDIA</a>,
+                            <a href="https://docs.com/en-us" target="_blank">Microsoft</a>, and
+                            <a href="http://placeiq.com/" target="_blank">PlaceIQ</a>.
+                            <br><br> Among other things, I love to go rock climbing, read books, play video games, and learn new songs on my guitar.
+                            <br><br> You can checkout my <a href="{{site.url}}/projects" target="_blank"><b>projects</b></a> and <a href="{{site.url}}/assets/Resume.pdf" target="_blank"><b>résumé</b></a> to learn more about me.
+                            <br><br> Cheers,
+                            <br><br>
+                            <i>Seikun Kambashi</i>
+                        </div>
+                    </div>
+                    <div class="row row-eq-height" style="float: none; margin: 0 auto">
+                        <div class="col-md-11">
+                            <hr></hr>
+                        </div>
+                    </div>
+                    <div class="row row-eq-height">
+                        <div class="col-md-12">
+                            <div id="instafeed"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.page-content -->
+    </div>
+    <!-- /.wrap -->
+</div>
+<!-- /#main -->
 
 <script type="text/javascript" src="{{ site.url }}/js/instafeed.min.js"></script>
 
 <script type="text/javascript">
-	var loadButton = document.getElementById('load-more');
-	var feed = new Instafeed({
+    var loadButton = document.getElementById('load-more');
+    var feed = new Instafeed({
         get: 'user',
-	    userId: 1318690860,
-            accessToken: '1318690860.1677ed0.3e180df9d94c4bf8ae3def432cc0a901',
-	    limit: 6,
-	    template: '<div class="col-xs-2"><a target="_blank" href="\{\{link\}\}"><img src="\{\{image\}\}"></div>',
-	});
-	feed.run();
+        userId: 1318690860,
+        accessToken: '1318690860.1677ed0.3e180df9d94c4bf8ae3def432cc0a901',
+        limit: 6,
+        template: '<div class="col-xs-2"><a target="_blank" href="\{\{link\}\}"><img src="\{\{image\}\}"></div>',
+    });
+    feed.run();
 </script>
