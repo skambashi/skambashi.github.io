@@ -9,10 +9,10 @@
   excerpt: "I make things."
   image: projects.png
 
-- title: Blog
-  url: /blog/
-  excerpt: "I write things."
-  image: blog.png
+# - title: Blog
+#   url: /blog/
+#   excerpt: "I write things."
+#   image: blog.png
 
 # - title: Climbing
 #   url: /climbing/
