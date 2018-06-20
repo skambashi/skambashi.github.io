@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Projects"
-date: 
+date:
 modified:
 excerpt:
 image:

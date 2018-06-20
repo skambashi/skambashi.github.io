@@ -23,3 +23,8 @@
   url: /assets/seikun_kambashi.pdf
   excerpt: "I do things."
   image: resume.png
+
+# - title: Timeline
+#   url: /timeline/
+#   excerpt: "I am."
+#   image: blog.png
