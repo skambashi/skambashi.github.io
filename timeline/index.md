@@ -10,6 +10,7 @@ image:
   thumb:
 ads: false
 ---
+<!-- https://bootsnipp.com/snippets/featured/timeline-responsive -->
 <link href="timeline.css" rel="stylesheet">
 <!-- https://stackoverflow.com/questions/10568065/limit-the-scope-of-bootstrap-styles -->
 <link href="dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
