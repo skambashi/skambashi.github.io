@@ -1,0 +1,26 @@
+Square - Fall 2017
+• Worked on migrating a report generation service from internal data center to Google cloud
+• Implemented distributed Spanner reads for large reports
+
+Wealthsimple - Winter 2017
+• Designed and implemented changes to ruby service for a brand-new on-boarding process from development to release
+• A/B tested new on-boarding process, and created multiple dashboards to track on-boarding and conversion rate performance
+
+Nvidia - Summer 2016
+• Designed and implemented comprehensive performance tests for service
+APIs using Jmeter
+• Separated monolithic service deployment process to allow for platform-agnostic
+deployment of individual services
+• Helped develop Jenkins integration testing pipelines using AWS CodeDeploy,
+allowing code changes to be tested and integrated 3x faster
+• Created Kibana dashboards for measuring performance of APIs
+
+Microsoft - Fall 2015
+• Designed and implemented account linking on Docs.com, giving non-Microsoft
+users access to services like Sway
+• Worked on improving codebase quality by refactoring, documenting, and adding unit tests
+
+PlaceIQ - Winter 2015
+• Assessed quality of new datasets by aggregating and analyzing distribution of data points to extract meaningful models and observations
+• Processed and analyzed terabytes of data using Spark and MapReduce on Amazon EMR clusters for various client campaigns
+• Wrote, automated and tested data pipelines used in production for processing billions of mobile requests and logs
