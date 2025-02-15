@@ -16,9 +16,7 @@ permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
-gems:
-  - jekyll-sitemap
-
+gems: []
 
 # Site owner
 owner:
@@ -35,4 +33,4 @@ disqus-shortname: skambashi
 site:
   url: https://seikun.kambashi.com
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "blog", "climbing", "timeline", "projects", "_posts", "atom.xml", "sitemap.xml"]

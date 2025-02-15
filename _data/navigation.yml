@@ -9,10 +9,10 @@
   url: /
   excerpt: "I am."
 
-- title: Projects
-  url: /projects/
-  excerpt: "I make things."
-  image: projects.png
+# - title: Projects
+#   url: /projects/
+#   excerpt: "I make things."
+#   image: projects.png
 
 # - title: Blog
 #   url: /blog/
