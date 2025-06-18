@@ -1,26 +1,87 @@
-Square - Fall 2017
-• Worked on migrating a report generation service from internal data center to Google cloud
-• Implemented distributed Spanner reads for large reports
+# Seikun Kambashi
+[linkedin.com/in/seikun](https://linkedin.com/in/seikun)
 
-Wealthsimple - Winter 2017
-• Designed and implemented changes to ruby service for a brand-new on-boarding process from development to release
-• A/B tested new on-boarding process, and created multiple dashboards to track on-boarding and conversion rate performance
+---
 
-Nvidia - Summer 2016
-• Designed and implemented comprehensive performance tests for service
-APIs using Jmeter
-• Separated monolithic service deployment process to allow for platform-agnostic
-deployment of individual services
-• Helped develop Jenkins integration testing pipelines using AWS CodeDeploy,
-allowing code changes to be tested and integrated 3x faster
-• Created Kibana dashboards for measuring performance of APIs
+## Experience
 
-Microsoft - Fall 2015
-• Designed and implemented account linking on Docs.com, giving non-Microsoft
-users access to services like Sway
-• Worked on improving codebase quality by refactoring, documenting, and adding unit tests
+### Senior Software Engineer | Revenue and Experimentation, Code  
+**Warp.dev** — *Remote (Seattle, WA)*  
+*August 2023 – Present*
 
-PlaceIQ - Winter 2015
-• Assessed quality of new datasets by aggregating and analyzing distribution of data points to extract meaningful models and observations
-• Processed and analyzed terabytes of data using Spark and MapReduce on Amazon EMR clusters for various client campaigns
-• Wrote, automated and tested data pipelines used in production for processing billions of mobile requests and logs
+#### Codebase Indexing
+- Spearheaded datastore architecture for scaling up our codebase indexing system. Implemented integrations with Bigtable for document embedding and merkle tree caching, and turbopuffer for high-performance vector search for documents in coding interactions with our LLM agent.
+- Designed and implemented schema for distributed caches and vector indices, with a focus on preventing race conditions and ensuring consistency during high-concurrency access patterns. Implemented cache eviction strategies to clean up stale data while maintaining data integrity and performance under load.
+- Built merkle tree diffing logic to reconcile local snapshots against real-time filesystem state, ensuring accurate sync between client and server on app initialization.
+
+#### Enterprise Database Isolation
+- Implemented and rolled out new single-tenant database layer for enterprise customers with stronger security guarantees and database isolation.
+
+#### Billing Framework
+- Designed and implemented comprehensive end-to-end billing framework to support multiple subscription plans and enterprise tiers, unblocking revenue and enabling the company to grow to over $2m ARR in one year.
+- Integrated Stripe for automated tier provisioning and built a framework to enforce feature limits across all clients and servers. Enabled cross-functional teams to adjust tier limits, define custom enterprise tiers, and run feature-driven conversion experiments.
+
+#### GraphQL V2
+- Implemented new standardized request/response format and streamlined process for defining new GraphQL APIs, reducing generated code by 10%, and improving compile times and developer productivity on our Rust client.
+
+---
+
+### Software Engineer | Application Infrastructure, Gateway Infrastructure  
+**Databricks** — *San Francisco, CA / Seattle, WA*  
+*August 2018 – June 2023*
+
+#### Rate Limiting Service
+- Led development of a custom, global rate-limiting service built on gRPC and Redis, handling over 100k QPS of incoming traffic to the control plane in the largest regions.
+- Replaced an open-source service with a custom implementation to enable tighter integration with internal tooling, support for dynamic rate limits, and rapid abuse mitigation, reducing response time from minutes to seconds.
+
+#### Service-to-Service Communication
+- Led the transition of Databricks’ RPC service framework from using HTTP headers with shared secrets to per-service provisioned secrets for generating signed JWTs, standardizing context propagation across control plane services, and ensuring secure request authentication and auditing.
+- Collaborated with cross-functional teams across multiple technology stacks (Python, Scala, Java) to ensure smooth integration and consistent context propagation between services.
+
+#### Monolith to Microservices
+- Contributed to re-architecting Databricks’ largest monolithic application into scalable, stateless microservices.
+- Extracted authentication and routing into independent services using gRPC and Envoy, reducing p99 latency by 50% and enabling independent scaling of proxy and auth services for high-traffic API requests.
+
+---
+
+## Internships
+
+### Software Engineering Intern | Analytics and Reporting  
+**Block Inc. (Square)** — *San Francisco, CA*  
+*September 2017 – December 2017*  
+- Migrated Square’s report generation service to Google Cloud and implemented distributed Spanner reads, optimizing large-scale report processing.
+
+### Software Engineering Intern | Backend  
+**Wealthsimple** — *Toronto, Canada*  
+*January 2017 – April 2017*  
+- Developed and released a ruby-on-rails backend service for a new user onboarding process, A/B tested onboarding flows, and created dashboards to track conversion rates and performance.
+
+### Software Engineering Intern | GeForce Now  
+**NVIDIA** — *Santa Clara, CA*  
+*May 2016 – August 2016*  
+- Developed Jenkins integration pipelines using AWS CodeDeploy, reducing integration time by 3x. Re-architected deployment processes to enable platform-agnostic microservice deployments.
+
+### Software Engineering Intern | Office  
+**Microsoft** — *Tokyo, Japan*  
+*September 2015 – December 2015*  
+- Implemented an account linking feature for Docs.com to provide external users access to Microsoft services, and refactored code to improve maintainability and testability.
+
+### Data Science Intern | Data  
+**PlaceIQ** — *New York, NY*  
+*January 2015 – April 2015*  
+- Processed and transformed terabytes of raw data through Spark, supporting ad campaign data needs and optimizing data quality.
+
+---
+
+## Education
+
+**University of Waterloo** — *Waterloo, Canada*  
+Bachelor of Software Engineering, Co-op Program *(with distinction)*  
+*August 2018*
+
+---
+
+## Skills
+
+Rust, Go, Scala, Python, Kubernetes, Envoy, gRPC, GraphQL, React, Redis, BigTable, turbopuffer  
+Distributed systems, API design, microservices, service framework, vector databases
